@@ -13,3 +13,10 @@ mongoose.connect(uri,{useMongoClient:true});
 mongoose.connection
 .once('open', ()=> {app.listen(3000,()=>console.log('Server started'))})
 .on('error', console.error.bind(console, 'Warning Error:'));
+
+//routing
+const Product = require('./Product');
+app.get('/',(req,res)=> {
+Product.find({})
+.then(products => res.render('home',{products}))//truyen bien products wa home.ejs
+});
