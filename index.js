@@ -14,7 +14,7 @@ mongoose.connection
 .once('open', ()=> {app.listen(3000,()=>console.log('Server started'))})
 .on('error', console.error.bind(console, 'Warning Error:'));
 
-//routing
+//routing home
 const Product = require('./Product');
 app.get('/',(req,res)=> {
 Product.find({})
