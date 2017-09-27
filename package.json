@@ -1,0 +1,26 @@
+{
+  "name": "MongooseDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an244/MongooseDemo.git"
+  },
+  "author": "an244 <thienan.le244@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/an244/MongooseDemo/issues"
+  },
+  "homepage": "https://github.com/an244/MongooseDemo#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.5",
+    "mongoose": "^4.11.13",
+    "multer": "^1.3.0"
+  }
+}
